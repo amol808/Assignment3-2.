@@ -1,0 +1,13 @@
+# Interactive input for student's test score and class rank
+testScoreString = input("Enter the student's test score: ")
+classRankString = input("Enter the student's class rank: ")
+
+# Convert the string representations to integers
+testScore = int(testScoreString)
+classRank = int(classRankString)
+
+# Logic to determine acceptance or rejection based on test score and class rank
+if testScore >= 85 and classRank <= 75:
+    print("Accept")
+else:
+    print("Reject")
